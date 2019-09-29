@@ -1,5 +1,4 @@
-FROM opspresso/awscli:1.16.245
-
+FROM ubuntu:latest
 LABEL "com.github.actions.name"="Release to GitHub"
 LABEL "com.github.actions.description"="GitHub Release"
 LABEL "com.github.actions.icon"="tag"
